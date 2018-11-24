@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import About from './about/about';
 import Services from './services/services';
+import ContactInfo from './contact/contactInfo';
 import {Link} from 'react-router-dom';
 import './index.css';
 
@@ -36,6 +37,8 @@ export default class Home extends Component {
         <About />
         <div><span>&nbsp;</span></div>
         <Services />
+        <div><span>&nbsp;</span></div>
+        <ContactInfo />
         <footer className="page-footer">
           <div className="footer-copyright text-center py-3">© 2018 Copyright:
             <Link to="/"> vedantholidays.co.in</Link>

@@ -7,8 +7,8 @@ export default class AboutUs extends Component {
         <div className="card border-info mb-3">
             <h5 className="card-header text-center">About Us</h5>
             <div className="card-body">
-                <div class="row">
-                    <div class="col-md">
+                <div className="row">
+                    <div className="col-md">
                         <h5 className="card-title">Welcome to Vedant Holidays, Bengaluru</h5>
                         <p className="card-text">We started our Journey in the year 2012 with the intention to provide Reliable 
                         Taxi Services from Bengaluru. However, in the year 2016 we up-graded ourselves to provide Package Tours 
@@ -22,7 +22,7 @@ export default class AboutUs extends Component {
                         Tour with us. Look around our website and if you have any comments or queries, please feel free to contact
                         us.</p>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <img className="d-block w-100" src={require('../assets/about.jpg')} alt="About Us" />
                     </div>
                     
